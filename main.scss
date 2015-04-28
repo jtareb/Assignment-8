@@ -1,0 +1,65 @@
+$boxWidth: 400px;
+$boxBorder: 1px solid lightgrey;
+$backColor: HSLA(184, 100%, 42%, 1);
+.container {
+	margin-top:10%;
+	margin-left:25%;
+	
+	.boxOne{
+		width:$boxWidth;
+		border: $boxBorder;
+	}
+	.boxOnePara{
+		padding:15px;
+	}
+	.boxTwoPara{
+		padding:15px;
+	}
+	.boxThreePara{
+		padding:15px;
+	}
+
+	.boxTwo{
+		width:$boxWidth;
+		border: $boxBorder;
+	}
+	.boxThree{
+		width:$boxWidth;
+		border: $boxBorder;
+		
+	}
+
+	.boxThreeTop{
+		color:white;
+		padding-left: 5%;
+		line-height: 200%;
+		background-color: $backColor;
+
+	}
+
+	.boxTwoTop{
+		color:white;
+		padding-left: 5%;
+		line-height: 200%;
+		
+		background-color: $backColor;
+	}
+	.boxOneTop{
+		color:white;
+		padding-left: 5%;
+		line-height: 200%;
+		background-color: $backColor;
+
+	}
+	.boxOneTop:hover{
+		background-color:black;
+	}
+
+	.boxTwoTop:hover{
+		background-color:black;
+	}
+	.boxThreeTop:hover{
+		background-color:black;
+	}
+
+}
